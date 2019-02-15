@@ -3,14 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
   <title>"Reno Shop Bee"</title>
 </head>
 
 <body>
-  <header class="header-area">
-    <!-- Header Area Start -->
+<header>
+<!-- Header Area Start -->
+<h1 class="vialy-hiddensu">Магазин постельного белья Reno Shop Bee </h1>
+ <nav class="top-menu-header">
     <div class="header-top hidden-xs">
-      <div class="container">
+      <div class="header-container">
         <div class="row">
           <div class="col-md-6 col-sm-6">
             <div class="header-top-left text-left">
@@ -20,8 +23,7 @@
                   <span>+380508886847</span>
                 </li>
                 <li>
-                  <i class="sp-email"></i>
-                  <span>renoshopbee_ua@gmail.com</span>
+                  <a class="sp-email" href="mailto:renoshopbee_ua@gmail.com">renoshopbee_ua@gmail.com</a>
                 </li>
               </ul>
             </div>
@@ -29,21 +31,172 @@
           <div class="col-md-6 col-sm-6">
             <div class="header-social">
               <ul class="social-button">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitwer</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Linkedin</a></li>
-                <li><a href="">Pinterest</a></li>
+                <li><a href="#"><span class="visualy-hidden">Facebook</span></a></li>
+                <li><a href="#"><span class="visualy-hidden">Instagram</span></a></li>
+                <li><a href="#"><span class="visualy-hidden">Pinterest</span></a></li>
+                <li><a href="#"><span class="visualy-hidden">Viber</span></a></li>
+                <li><a href=""><span class="visualy-hidden">WatsUpp</span></a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
+    </nav>
     <!-- Header-Top End -->
     <!-- Main-Header Start -->
+    <nav class="main-navigation">
+    <div class="main-menu-header">
+      <div class="logo">
+            <a href="index.html"><img src="img/index-logo.svg" width="172" height="17" alt="Логотип магазина"/></a>
+      </div>
+      <div class="menu-header-center">
+        <ul class="site-navigation">
+          <li class="site-navigation-current"> <a href="index.html"> Главная </a> </li>
+          <li><a href="shop.html">Магазин</a></li>
+          <li><a href="full-complekt.html">Комплекты</a></li>
+          <li><a href="blanket.html">Одеяла</a></li>
+          <li><a href="pillow.html">Подушки</a></li>
+          <li><a href="accessories.html">Аксесуары</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="user-navigation">
+        <ul class="user-navigation-wraper">
+          <div class="basket-cart">
+            <li>
+              <a href="basket.html"><img src="img/basket.png" width="16" height="14" alt="Корзина" /></a>
+            </li>
+          </div>
+          <div id="sb-search" class="sb-search">
+            <li>
+            <form>
+              <input class="sb-search-input" placeholder="Поиск по сайту..." type="search" value=""
+                     name="search" id="search">
+              <input class="sb-search-submit" type="submit" value="">
+              <span class="sb-icon-search"><img src="img/search.png" width="16" height="16" alt="Поиск"/> </span>
+            </form>
+            </li>
+          </div>
+          <ul class="Personal-Area">
+            <li>
+            <a><img src="img/Submenu.png" width="14" height="13" alt="Меню пользователя"></a>
+            </li>
+            <ul class="submenu">
+              <li class="submenu-title"><a href="my-account.html">Мой аккаунт</a></li>
+              <li><a href="login.html">Регистрация</a></li>
+              <li><a href="shop.html">Магазин</a></li>
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="contact.html">Контакты</a></li>
+              <li><a href="blog.html">Наш блог</a></li>
+            </ul>
+        </ul>
+      </div>
+  </nav>
+ </header>
+<!-- HEADER-AREA END -->
 
-  </header>
+<!-- PAGE-CONTENT START -->
+<h3 class="vialy-hiddensu">Рекламный слайдер</h3>
+<!-- Slider-Area-Start -->
+<section class="slider-area">
+  <div class="slider-area margin-bottom-80">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="img/slider/slider_.png" width="1920" height="800" alt="Слайд 1" title="#slider-direction-1"  />
+        <img src="img/slider/slider_2.jpg" width="1920" height="800" alt="Слайд 2" title="#slider-direction-2"  />
+        <img src="img/slider/slider_1.jpg" width="1920" height="800" alt="Слайд 3" title="#slider-direction-3"  />
+      </div>
+      <!-- direction 1 -->
+      <div id="slider-direction-1" class="t-cn slider-direction">
+        <div class="slider-progress"></div>
+        <div class="slider-content t-lfl s-tb">
+          <div class="title-container s-tb-c title-compress">
+            <div class="slider-1">
+              <div class="wow fadeInUpBig" data-wow-duration="1.2s" data-wow-delay="0.5s">
+                <h1 class="title1">Утреннее настроение</h1>
+              </div>
+              <div class="image wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.7s">
+                <span><img src="img/slider/slider-border.png" alt="Разделитель" /></span>
+              </div>
+              <div class="wow fadeInUpBig" data-wow-duration="1.8s" data-wow-delay="0.9s">
+                <p class="slider-brief">«Солнечное утро — это время тихой радости. Эти часы — не для спешки, не для суеты. Утро — время неторопливых, глубоких, золотых мыслей». </p>
+              </div>
+              <div class="wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="1.1s">
+                <a href="shop.html" class="shop-now">В магазин</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- direction 2 -->
+      <div id="slider-direction-2" class="slider-direction">
+        <div class="slider-progress"></div>
+        <div class="slider-content t-lfl s-tb">
+          <div class="title-container s-tb-c title-compress">
+            <div class="slider-1">
+              <div class="wow fadeInUpBig" data-wow-duration="1.2s" data-wow-delay="0.5s">
+                <h1 class="title1">Дневной комфорт</h1>
+              </div>
+              <div class="image wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.7s">
+                <span><img src="img/slider/slider-border.png" alt="Разделитель" /></span>
+              </div>
+              <div class="wow fadeInUpBig" data-wow-duration="1.8s" data-wow-delay="0.9s">
+                <p class="slider-brief">„Наша работа — соединять комфорт и роскошь, практичное и желаемое.“</p>
+              </div>
+              <div class="wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="1.1s">
+                <a href="shop.html" class="shop-now">В магазин</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- direction 3 -->
+      <div id="slider-direction-3" class="slider-direction">
+        <div class="slider-progress"></div>
+        <div class="slider-content t-lfl s-tb">
+          <div class="title-container s-tb-c title-compress">
+            <div class="slider-1">
+              <div class="wow fadeInUpBig" data-wow-duration="1.2s" data-wow-delay="0.5s">
+                <h1 class="title1">Вечерний уют</h1>
+              </div>
+              <div class="image wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.7s">
+                <span><img src="img/slider/slider-border.png" alt="Разделитель" /></span>
+              </div>
+              <div class="wow fadeInUpBig" data-wow-duration="1.8s" data-wow-delay="0.9s">
+                <p class="slider-brief"> Стоит запомнить, что в большинстве случаев, мы просыпаемся в том же
+                    настроении, в котором засыпали.</p>
+              </div>
+              <div class="wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="1.1s">
+                <a href="shop.html" class="shop-now">В магазин</a>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SLIDER-AREA END -->
+</section>
+   <!-- bestselers-area-start -->
+<main class="container">
+    <section class="bestselers">
+        <h2 class="visualy-hidden">Бесцелеры торговых марок</h2>
+
+    </section>
+    <section class="features">
+        <h2 class="visualy-hidden">Преимущества</h2>
+    </section>
+    <article class="sale">
+      <h3 class="visualy-hidden">Скидки и акции</h3>
+
+    </article>
+    <section class="features-produkt">
+
+    </section>
+
+
+</main>
 
 </body>
 
